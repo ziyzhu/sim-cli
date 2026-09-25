@@ -19,6 +19,9 @@ bun install
 bun run build    # produces ./dist/sim
 ```
 
+The launcher uses Bun and the installed `protobufjs` dependency. Keep `node_modules`
+next to this checkout; a compiled standalone binary breaks the idb gRPC client.
+
 Or run directly:
 
 ```sh
